@@ -1,0 +1,10 @@
+# Игнорим только этот .env
+/frontend/.env
+# Игнорим node_modules в проектах
+/frontend/node_modules/
+
+
+# Остальные
+*.log
+dist/
+dist-ssr/

@@ -1,0 +1,109 @@
+.main__wrapper {
+  margin-top: 140px;
+}
+
+.moviepage__block {
+  display: flex;
+  gap: 40px;
+
+  @media (max-width: 512px) {
+    flex-direction: column;
+  }
+}
+
+.moviepage__image-block {
+  width: 256px;
+  height: 384px;
+}
+
+.moviepage__image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.moviepage__title {
+  font-size: 40px;
+  color: #ffff;
+  font-weight: 800;
+}
+
+.moviepage__profile {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #9f9f9f;
+  font-weight: 600;
+}
+
+.moviepage__overview {
+  font-weight: 500;
+  max-width: 850px;
+  color: #ffff;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+}
+
+.moviepage__title-block {
+  @media (max-width: 512px) {
+    margin-top: 30px;
+  }
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  color: #d9d9d9;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 14px;
+  }
+}
+
+.card-votes  {
+  color: #ffff;
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.moviepage__content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.stats-table__label {
+  padding: 12px 8px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  width: 25%;
+
+  @media (max-width: 512px) {
+    display: block;
+    width: 100%;
+    background: #1a1a1a;
+  }
+}
+
+.genres {
+
+}
+
+
+.stats-table__value {
+  padding: 12px 150px;
+  color: #aaa;
+  text-align: left;
+
+  @media (max-width: 512px) {
+    display: block;
+    padding-left: 16px;
+    border-bottom: 1px solid #222;
+  }
+}

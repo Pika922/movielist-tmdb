@@ -1,0 +1,45 @@
+
+.card-cinema__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.card-cinema {
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+}
+
+.card-cinema:hover {
+  transform: scale(1.03);
+}
+
+.card-cinema__poster {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-cinema__info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-cinema__date {
+   color: #9f9f9f;
+   
+}
+
+.card-block__image {
+  
+}
+

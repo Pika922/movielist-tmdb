@@ -1,0 +1,62 @@
+.swiper {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+
+.slider-block {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    &:hover {
+    background-color: rgba(117, 117, 117, 0.1);
+    transition: 0.5s background-color ease;
+    
+}
+}
+
+.slide-title {
+    cursor: pointer;
+    color: #fff;
+}
+.slide-year {
+    color: #9f9f9f;
+    margin-top: 20px;
+}
+
+.slider-img {
+    cursor: pointer;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+.card-vote {
+  color: #ffffff;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.card-vote__text-HI {
+  background-color: rgb(30, 180, 0);
+
+}
+.card-vote__text-medium {
+  background-color: rgb(219, 69, 0);
+}
+
+.card-vote__text-low {
+  background-color: rgb(196, 1, 1);
+}
+
+.card-vote__text-null {
+  background-color: rgb(136, 136, 136);
+}

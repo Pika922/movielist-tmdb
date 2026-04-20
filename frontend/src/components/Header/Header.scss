@@ -10,9 +10,11 @@
     left: 0;
     width: 100%;
     z-index: 2;
-   background: transparent;
-    border-bottom: solid 1px  #4b4b4b;
-  }
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    border-bottom: solid 1px #4b4b4b;
+}
   .header__search {
     display: flex;
     flex-grow: 1;
